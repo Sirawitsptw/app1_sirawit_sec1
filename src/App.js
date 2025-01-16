@@ -8,6 +8,8 @@ import { Button } from './class-components';
 import { Calculator2 } from './calculator';
 import { EventData2 } from './even-data';
 import RefsFunc from './refs-func';
+import RefsArray from './refs-array';
+import MessageBox from './state-func';
 
 function App() {
   return(
@@ -24,6 +26,10 @@ function App() {
       <EventData2/>
       <p><center>-----------------------------------------</center></p>
       <RefsFunc/>
+      <p><center>-----------------------------------------</center></p>
+      <RefsArray/>
+      <p><center>-----------------------------------------</center></p>
+      <MessageBox/>
     </>
   );
 }
