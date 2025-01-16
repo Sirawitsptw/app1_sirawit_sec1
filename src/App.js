@@ -6,6 +6,7 @@ import{Header , Content , Footer} from './func-components';
 import Calendar from './class-components';
 import { Button } from './class-components';
 import { Calculator2 } from './calculator';
+import { EventData2 } from './even-data';
 
 function App() {
   return(
@@ -16,6 +17,7 @@ function App() {
       <Footer/>
       <Button/>
       <Calculator2/>
+      <EventData2/>
     </>
   );
 }
